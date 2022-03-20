@@ -1,0 +1,30 @@
+
+
+.bill{
+    border: 10px solid #F00;
+
+}
+
+.title{
+    text-align: center;
+    color: hsl(183, 100%, 15%);
+}
+
+.main{
+    background-color: white;
+    
+}
+
+.tipAmount{
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .grid {
+      width: 100%;
+      flex-direction: column;
+      border: 10px solid #F00;
+    }
+  }
+  
