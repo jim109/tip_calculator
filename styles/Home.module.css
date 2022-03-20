@@ -1,23 +1,113 @@
 
 
-.bill{
-    border: 10px solid #F00;
-
+.input{
+    width: 300px;
+    margin: 1px 0px 0px 0px;
+    padding: 12px;
+    border: 0;
+    background-color: #F3F8FB;
+    border-radius: 5px;
+    font-size: 24px;
+    text-align: right;
+    color: #00474B;
+    font-weight: 700;
+    
+    
 }
+
+.h2{
+    text-align: left;
+    font-size: 16px;
+    margin-left: 25px;
+    padding-top: 30px;
+    
+    
+}
+
+.tip{  
+    
+    margin: 10px 20px 10px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    grid-auto-rows: minmax(30px, auto);
+    color: aliceblue;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+
+.tip2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.tip2 p{
+    margin: 0;
+}
+
+.one{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two{
+    grid-column: 1;
+    grid-row: 2;
+}
+.three{
+    grid-column: 2;
+    grid-row: 1/3;  
+}
+
+.four{
+    grid-column: 1;
+    grid-row:3;
+}
+.five{
+    grid-column: 2;
+    grid-row: 3/5;
+}
+.six{
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.p{
+    margin: 6px;
+    background-color: #00474B;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.p:hover,
+.p:focus,
+.p:active {
+  background-color: #26C2AD;
+  color: #00474B;
+}
+
 
 .title{
     text-align: center;
-    color: hsl(183, 100%, 15%);
+    margin: 0;
+    
 }
 
 .main{
     background-color: white;
+    
+    border-radius: 25px;
     
 }
 
 .tipAmount{
     background-color: hsl(183, 100%, 15%);
     color: white;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 25px;
 }
 
 @media (max-width: 600px) {

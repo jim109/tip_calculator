@@ -1,9 +1,10 @@
 body{
-    background-color: hsl(185, 41%, 84%);
-    color: hsl(183, 100%, 15%);
+    background-color: #C5E3E7;
+    color: #406667;
     max-width: 375px;
     text-align: center;
     margin: 0;
+    font-family: 'Space Mono', monospace;
 }
 
 /*VERDE OSCURO hsl(183, 100%, 15%)
