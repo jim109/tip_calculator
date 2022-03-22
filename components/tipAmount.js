@@ -13,7 +13,7 @@ export default function TipAmount(){
             <p className={styles.six}>/ Person</p>
           </div>    
                         
-          <button >RESET</button>
+          <button className={styles.buttonreset} >RESET</button>
         </div>
     )
 }

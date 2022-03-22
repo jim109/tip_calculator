@@ -1,37 +1,38 @@
-
-
 .input{
-    width: 300px;
-    margin: 1px 0px 0px 0px;
-    padding: 12px;
+    width: 278px;
+    height: 46px;
     border: 0;
     background-color: #F3F8FB;
     border-radius: 5px;
     font-size: 24px;
     text-align: right;
     color: #00474B;
-    font-weight: 700;
-    
-    
+    font-weight: 700; 
+    padding: 0 17px 0 17px;
+        
+}
+
+.error{
+    border: 2px solid #F00;
 }
 
 .h2{
     text-align: left;
     font-size: 16px;
-    margin-left: 25px;
-    padding-top: 30px;
+    margin: 0;
+    padding: 40px 0 12px 32px;
     
     
 }
 
 .tip{  
-    
-    margin: 10px 20px 10px 20px;
+    height: 176px;
+    padding: 0 32px 0 32px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 5px;
     grid-auto-rows: minmax(30px, auto);
-    color: aliceblue;
+    color: hsl(0, 0%, 100%);
     font-size: 24px;
     font-weight: 700;
     
@@ -40,81 +41,134 @@
 .tip2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin: 0;
+    padding: 23px;
     
 }
 
 .tip2 p{
     margin: 0;
+    
 }
 
 .one{
     grid-column: 1;
     grid-row: 1;
+    padding-top: 20px;
+    text-align: left;
 }
 
 .two{
     grid-column: 1;
     grid-row: 2;
+    padding-bottom: 30px;
+    text-align: left;
+    color: #26C2AD;
 }
 .three{
     grid-column: 2;
     grid-row: 1/3;  
+    padding-top: 20px;
+    font-size: 30px;
+    color: #26C2AD;
+    text-align: right;
+    
+    
 }
 
 .four{
     grid-column: 1;
     grid-row:3;
+    text-align: left;
 }
 .five{
     grid-column: 2;
     grid-row: 3/5;
+    font-size: 30px;
+    color: #26C2AD;
+    text-align: right;
 }
 .six{
     grid-column: 1;
     grid-row: 4;
+    padding-bottom: 12px;
+    text-align: left;
+    color: #26C2AD;
 }
 
-.p{
-    margin: 6px;
+.p{   
     background-color: #00474B;
-    padding: 15px;
     border-radius: 6px;
+    height: 50px;
+    width: 146px;
+    margin: 0;
+    vertical-align: middle;
+    line-height: 50px;
 }
 
-.p:hover,
-.p:focus,
-.p:active {
+.p:last-child{
+    background-color: #F3F8FB;
+    font-size: 24px;
+    border: 0;
+    width: 112px;
+    text-align: right;
+    padding: 0 17px 0 17px;
+}
+
+.input .p::placeholder { color: #406667; }
+
+.p:hover{
   background-color: #26C2AD;
   color: #00474B;
 }
 
 
 .title{
-    text-align: center;
-    margin: 0;
+    margin: 0;    
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 22px;
+    letter-spacing: 12px;
+    
     
 }
 
 .main{
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
+    padding-bottom: 2px;
+    border-radius: 25px 25px 0px 0px;
     
-    border-radius: 25px;
     
 }
 
 .tipAmount{
     background-color: hsl(183, 100%, 15%);
-    color: white;
+    color: hsl(0, 0%, 100%);
     border-radius: 10px;
-    margin: 25px;
-    padding: 25px;
+    margin: 24px;
+    height: 256px;
+    padding-bottom: 12px;
+
 }
 
-@media (max-width: 600px) {
-    .grid {
-      width: 100%;
-      flex-direction: column;
-      border: 10px solid #F00;
-    }
-  }
-  
+.buttonreset{
+    width: 281px;
+    height: 48px;
+    border-radius: 5px;
+    color: #00474B;
+    background-color: #26C2AD;
+    border:0;
+    font-weight: 700;
+    padding: 0;
+    font-size: 18px;
+}
+/*
+.buttonreset:hover,
+.buttonreset:focus,
+.buttonreset:active {
+  background-color: #00474B;
+  color: #00474B;
+}*/
+
+
+

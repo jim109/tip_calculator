@@ -9,7 +9,7 @@ export default function SelectTip(){
       <p className={styles.p}>15%</p>
       <p className={styles.p}>25%</p>
       <p className={styles.p}>50%</p>
-      <p className={styles.p}>Custom</p>
+      <input className={styles.p} placeholder="Custom" type="number"></input>
     </div>
     
   </div>)

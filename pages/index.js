@@ -8,25 +8,23 @@ export default function Home() {
       
         <title>Tip Calculator</title>
         <meta name="description" content="Tip Calculator next app" />        
-      
         
-      
         <h1 className={styles.title}>
-            SPLI
-        </h1>
-        <h1 className={styles.title}>TTER</h1>
+            SPLI<br/>TTER</h1>        
+         
+        
         <main className={styles.main}>
 
-        <div >
+        <div>
           <h2 className={styles.h2}>Bill</h2>
-          <input className={styles.input} placeholder="$ 142.55"></input>
+          <input className={styles.input} placeholder="$" type="number"></input>
         </div>
         <SelectTip></SelectTip>
        
 
-        <div>
+        <div className={styles.nPeople}>
           <h2 className={styles.h2}>Number of People</h2>
-          <input className={styles.input}></input>
+          <input className={styles.input} placeholder="#" type="number"></input>
         </div>
         <TipAmount></TipAmount>
                 
